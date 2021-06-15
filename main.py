@@ -1,7 +1,8 @@
-def helloworld(_string):  ##this is example
+def helloworld(_string):
     msg = f"hello world {_string}"
     print(msg)
-    return (msg)
+    return msg
+
 
 if __name__ == "__main__":
     helloworld("bt")
